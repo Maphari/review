@@ -1,0 +1,35 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #091940;
+    --white-color: #fff;
+    --gray-color: #161616;
+    --primary-font: "Poppins", sans-serif;
+}
+
+body {
+    font-family: var(--primary-font);
+/* 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.main-container {
+    margin: 1.6rem;
+}
+.main-container .main-container__header .main-container__header-head {
+    font-size: 1.8rem;
+    font-weight: 700;
+}
+
+.main-container .none {
+    display: none;
+}
